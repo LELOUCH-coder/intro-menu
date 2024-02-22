@@ -1,0 +1,71 @@
+<p></p>=for writing paragraph
+<!--.....-->=doesnt come in website (for readers)
+<br>=for separating
+<b></b>= for bold
+<i></i>= italic
+<u></u>= underline
+<big></big>= shows big trext
+<small></small> = small text
+<hr>= makes Horizontal line
+<sub></sub>= makes subscript text eg=h20
+<div></div>= block ement(takes full width)
+<span></span> takes only space we want to take
+<sup></sup> = makes superscript eg=a2 +b2
+<pre></pre>=makes spaces which html doesnt usually counts
+<header>,<main>,<footer>
+
+HEADING TAGS
+<h1>.....<h6>==h1 biggest and h6 smallest
+
+ANCHOR TAG=used to add links to ur page
+<a href="link">link name</a> (opens in same page)
+<a href="link" target="_main">linik name</a> (opens in new tab
+<a href="link"> <img src="link></a> (clickable link)
+
+IMAGE TAG
+<img src="image extension/link" alt="random image">
+(must be inside image tag) > height,width=..==to resize image (recommended to set just one either height or width)
+
+INSDIE MAIN TAG
+<section></section>= to create section for ur page
+<article></article>= to create article 
+<aside></aside>=for content aside main content(ads)
+
+LIST
+<ul><li></li></ul>=to create list(only bullets)
+<ol><li></li></ol>=abc ,123
+
+Tables:
+<table></table>
+<tr></tr>=display table row
+<td></td>=display table data
+<th></th>= display table header
+<caption></caption>
+<thead></thead>=wrap table head
+<tbody></tbody>=wrap table body
+<th colspan="number"> 
+
+FORM
+<form></form>
+<form action="/action.php">
+<input type="text" placeholder="enter name">
+<label for="id1">
+<input type="radio" value="class A"name="class" id="id1">(for mcq)
+</label>
+<label for= "id1">
+<input type="checkbox" value="class X" name="class" id="id1">(for checkbox)
+<input type="sumbit" value="sumbit">(Sumbit button)
+</label>
+<textarea name="feedback" id="id1" placeholder"=please give...">...</textarea>
+
+SELECT TAG
+<select city="..">
+<option value="delhi">Delhi</option>
+<option value="Banglore">Banglore</option>
+
+IFRAME TAG
+<iframe src="link">(video link)
+
+VIDEO TAG
+<video src="limnk" control ></video>
+attributes=control,loop,autoplay,height,width
